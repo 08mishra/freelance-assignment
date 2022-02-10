@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    position: relative;
+    min-height: 550px;
+    padding: 20px;
+}
+
+.container_first{
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    min-height: 400px;
+    display: flex;
+}
+
+.container_first-box1{
+    width: 50%;
+    height: 350px;
+    background: rgb(0, 0, 0);
+    position: absolute;
+    top: 80px;
+    left: 30%;
+}
+
+.container_first-box2{
+    width: 300px;
+    height: 270px;
+    background: rgb(61, 61, 214);
+    position: absolute;
+    top: 210px;
+    left: 20%;
+    transform: skewX(5deg);
+    text-align: center;
+    color: #fff;
+}
+
+
+.container_first-box3{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 110px;
+    color: #fff;
+    
+}
+
+.container_second{
+    width: 100%;
+    min-height: 750px;
+    padding: 10px;
+    position: relative;
+     
+}
+.container_second h1{
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    left: 17%;
+}
+
+.container_second-box1{
+    width: 60%;
+    height: 400px;
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    background: #000;
+}
+
+.container_second-cards{
+    width: 99%;
+    position: absolute;
+    bottom: 170px;
+     
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.container_second-cards .card{
+    width: 250px;
+    height: 280px;
+    transform: skewX(5deg);
+    background: rgb(67, 67, 248);
+}
